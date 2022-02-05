@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #12305b;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 1562px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  padding: 10px 30px;
+  color: #12305b;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #12305b;
+}
+.nav-logo {
+  margin-left: 2rem;
+  padding-right: 3rem;
+  color: #12305b;
+}
+.nav-logo-title {
+  margin: 0;
+}
+
+header {
+  background-image: url(/img/shutterstock_524513014\ 1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+  width: 95vw;
+}
+.header-content {
+  padding: 4rem;
+  margin-left: 2rem;
+}
+.header-intro {
+  margin: 0;
+  padding: 0;
+}
+.header-title {
+  font-size: 3.75rem;
+  margin: 0;
+  padding: 0;
+}
+
+.header-link {
+  background-color: #fc5959;
+  color: #ffff;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.company-logos {
+  background-color: #fff;
+  display: flex;
+  padding: 1.5rem 1rem;
+  gap: 1.5rem;
+  box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+  border-radius: 2px;
+  position: absolute;
+  left: 30rem;
+  bottom: 7rem;
+}
+.company-main-logo {
+  height: 50%;
+  width: 30%;
+}
